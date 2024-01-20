@@ -71,7 +71,7 @@ export class UserServiceBase {
   ): Promise<User> {
     return this.prisma.user.delete(args);
   }
-  async PromoteUser(args: UserPromoteArgs): Promise<UserPromoteArgs> {
+  async PromoteUser(args: UserPromoteArgs): Promise<User> {
     throw new Error("Not implemented");
   }
 }
