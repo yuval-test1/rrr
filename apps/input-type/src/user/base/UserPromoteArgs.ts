@@ -1,4 +1,5 @@
 import { ObjectType, Field } from "@nestjs/graphql";
+import { UserPromoteInput } from "./UserPromoteInput";
 import { ApiProperty } from "@nestjs/swagger";
 import { Type } from "class-transformer";
 
